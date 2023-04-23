@@ -1,6 +1,7 @@
 <?php
-require_once('FireMage.php');
-require_once('Rogue.php');
+require_once ('FireMage.php');
+require_once ('Rogue.php');
+
 // Créer la classe "Personnage"
 class Personnage
 // implements FireMage
@@ -14,29 +15,28 @@ class Personnage
     public $class;
 
     // Définitions des méthodes (fonctions)
-    public function __construct($name,$pointDeVie,$dmg,$level,$class)
+    public function __construct($name, $pointDeVie, $dmg, $level, $class)
     {
         $this->name = $name;
         $this->pointDeVie = $pointDeVie;
         $this->dmg = $dmg;
-        $this->level= $level;
-        $this->class= $class;
-        $this->skills []= 'dodge';
-        $this->skills []= 'crit';
+        $this->level = $level;
+        $this->class = $class;
+        $this->skills[] = 'dodge';
+        $this->skills[] = 'crit';
     }
 
     public function toString()
     {
-        echo 'Nom : '.$this->name.'<br>';
-        echo 'Hp : '.$this->pointDeVie.'<br>';
-        echo 'Dmg : '.$this->dmg.'<br>';
-        echo 'Lvl : '.$this->level.'<br>';
-        echo 'Class : '.$this->class.'<br>';
+        echo 'Nom : ' . $this->name . '<br>';
+        echo 'Hp : ' . $this->pointDeVie . '<br>';
+        echo 'Dmg : ' . $this->dmg . '<br>';
+        echo 'Lvl : ' . $this->level . '<br>';
+        echo 'Class : ' . $this->class . '<br>';
         echo 'Compétences : ';
-        foreach($this->skills as $skill){
-            echo $skill.', ';
+        foreach ($this->skills as $skill) {
+            echo $skill . ', ';
         }
     }
-
 }
 ?>

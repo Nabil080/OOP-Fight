@@ -25,3 +25,11 @@ Then visit: [http://localhost:8000](http://localhost:8000)
 ### Other Concepts
 - Randomization and probabilities
 - Basic algorithms and combat logic
+
+## Screenshots
+
+- Fighting back and forth (first player is random)
+<img width="1640" height="962" alt="image" src="https://github.com/user-attachments/assets/ed317c9e-23e0-4b22-b78f-e858e931696a" />
+
+- Someone is dead
+<img width="525" height="589" alt="image" src="https://github.com/user-attachments/assets/e2ff2fd1-b481-4850-88ae-e363bc5080e1" />
